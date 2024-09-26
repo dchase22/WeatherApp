@@ -1,0 +1,78 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    height: 100vh;           /* Makes the container full height of the viewport */
+}
+
+.card {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+#location {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#overall {
+    font-weight: bold;
+    font-size: 20px;
+}
+.datalabelcontainercontainer {
+    display: flex;
+}
+
+#img-container {
+    margin-left: 30px;
+}
+
+.datalabelcontainer {
+    display: flex;
+    align-items: center; 
+    Gap: 20px;
+    #temp {
+        color: white;
+        border-radius: 5px;
+        background-color: rgba(51, 51, 51, 0.8);
+        padding: 10px;
+        display: none;
+    }
+    #templabel {
+        display: none;
+    }
+    #feels {
+        color: white;
+        border-radius: 5px;
+        background-color: rgba(51, 51, 51, 0.8);
+        padding: 10px;
+        display: none;
+    }
+    #feelslabel {
+        display: none;
+    }
+    #wind {
+        color: white;
+        border-radius: 5px;
+        background-color: rgba(51, 51, 51, 0.8);
+        padding: 10px;
+        display: none;
+    }
+    #windlabel {
+        display: none;
+    }
+}
+
+
+
+
+
+
