@@ -1,4 +1,4 @@
-#Weather App
+#:Weather App
 
 #Description
 The Weather App is a web application that provides real-time weather information for any given city. It utilizes the WeatherAPI for weather data and Unsplash API for relevant background images, creating an interactive and visually appealing user experience.
