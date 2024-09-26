@@ -3,7 +3,7 @@
 # Description
 The Weather App is a web application that provides real-time weather information for any given city. It utilizes the WeatherAPI for weather data and Unsplash API for relevant background images, creating an interactive and visually appealing user experience.
 
-# Features
+## Features
 Search for Weather: Users can enter a city name to get current weather conditions.
 Dynamic Background: The app fetches and displays a background image related to the searched city.
 User-Friendly Interface: Easy navigation with a clean design.
@@ -15,7 +15,7 @@ WeatherAPI
 Unsplash API
 Version Control: Git
 
-# Installation
+## Installation
 Clone the repository:
 git clone https://github.com/dchase22/WeatherApp.git
 
@@ -24,11 +24,11 @@ cd WeatherApp
 
 Open the index.html file in your web browser.
 
-# Usage
+## Usage
 Enter the name of a city in the search bar.
 Click the "Search" button to retrieve weather data and background images.
 The current weather conditions, temperature, and relevant image will be displayed.
 
-# Contact
+## Contact
 For any questions or feedback, you can reach me at:
 GitHub: dchase22
