@@ -1,4 +1,6 @@
 window.onload = function() {
+    console.log(import.meta.env);
+    const apiKey = import.meta.env.VITE_API_KEY;
     const searchInput = document.getElementById('search-bar');
     const searchButton = document.getElementById('search-button');
     const weatherCard = document.querySelector('.card');
@@ -18,7 +20,7 @@ window.onload = function() {
 
         if (!city) return; // Prevent API calls for empty input
 
-        const APIKey = '8f5ec20da4b84b8a999234645240309';
+        const APIKey = apiKey;
         const accessKey = '-xByj5OXARIzmlHcL6wg469QQOeR4E9IVOhXWtnaerU';
         const weatherURL = `http://api.weatherapi.com/v1/current.json?key=${APIKey}&q=${city}`;
         const imageURL = `http://api.unsplash.com/search/photos?page=1&query=${city}&client_id=${accessKey}`;
